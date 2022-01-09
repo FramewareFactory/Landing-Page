@@ -43,10 +43,10 @@
              id="nav-content">
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
                 <li class="mr-3">
-                    <a class="text-menu-nav inline-block py-2 px-4 text-blue-500 font-bold no-underline" href="#hero">Inicio</a>
+                    <a class="text-menu-nav inline-block py-2 px-4 text-blue-100 hover:underline" href="#hero">Inicio</a>
                 </li>
                 <li class="mr-3">
-                    <a class="text-menu-nav inline-block text-blue-500 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                    <a class="text-menu-nav inline-block text-blue-100 py-2 px-4 hover:underline"
                        href="#mainSection">Nosotros</a>
                 </li>
                 <!--            <li class="mr-3">-->
@@ -56,7 +56,7 @@
             <a
                     id="navAction"
                     href="#contactContainer"
-                    class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
             >
                 Contacto
             </a>
@@ -77,7 +77,7 @@
                 Deja que nuestro equipo te ayude a optimizar los procesos internos de tu negocio.
             </p>
             <a
-                    class="mx-auto cursor-pointer lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    class="mx-auto cursor-pointer lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     href="#mainSection"
             >
                 ¡Quiero conocer más!
@@ -348,7 +348,7 @@
         </div>
     </div>
     <!-- Wave -->
-    <div class="relative -mt-12 lg:-mt-24">
+    <div class="relative -mt-12 lg:-mt-24 -z-index-1">
         <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -867,20 +867,20 @@
             </g>
         </g>
     </svg>
-    <!--    <section class="container mx-auto text-center py-6 mb-12">-->
-    <!--      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">-->
-    <!--        Call to Action-->
-    <!--      </h1>-->
-    <!--      <div class="w-full mb-4">-->
-    <!--        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>-->
-    <!--      </div>-->
-    <!--      <h3 class="my-4 text-3xl leading-tight">-->
-    <!--        Main Hero Message to sell yourself!-->
-    <!--      </h3>-->
-    <!--      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">-->
-    <!--        Action!-->
-    <!--      </button>-->
-    <!--    </section>-->
+        <section class="container mx-auto text-center py-6 mb-12">
+          <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+            ¡Trabajemos juntos!
+          </h1>
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+          <h3 class="my-4 text-3xl leading-tight">
+            Main Hero Message to sell yourself!
+          </h3>
+          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Action!
+          </button>
+        </section>
     <section id="contactContainer" class="pb-20 relative block gradient">
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div class="flex flex-wrap text-center justify-center">
@@ -1049,7 +1049,7 @@
             }
             for (var i = 0; i < textNav.length; i++) {
                 textNav[i].classList.add("text-blue-500");
-                textNav[i].classList.remove("text-blue-200");
+                textNav[i].classList.remove("text-blue-100");
             }
             header.classList.add("shadow");
             navcontent.classList.remove("bg-gray-100");
@@ -1067,7 +1067,7 @@
                 toToggle[i].classList.remove("text-gray-800");
             }
             for (var i = 0; i < textNav.length; i++) {
-                textNav[i].classList.add("text-blue-200");
+                textNav[i].classList.add("text-blue-100");
                 textNav[i].classList.remove("text-blue-500");
             }
             header.classList.remove("shadow");
